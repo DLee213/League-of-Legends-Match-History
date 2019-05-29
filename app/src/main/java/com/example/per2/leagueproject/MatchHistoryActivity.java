@@ -10,18 +10,24 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.squareup.picasso.Picasso;
+
+import java.util.ArrayList;
 import java.util.List;
+
 public class MatchHistoryActivity extends AppCompatActivity  {
 
     private ImageView icon;
     private TextView rank;
     private TextView level;
     private ListView listHistory;
-    private List<History> listViewHistory;
+    public List<History> listViewHistory;
+    public String icon1;
 @Override
     protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_match_histry);
+    setContentView(R.layout.activity_match_history_adapter);
     wireWidgets();
     populateListView();
 
@@ -29,16 +35,17 @@ public class MatchHistoryActivity extends AppCompatActivity  {
         @Override
         public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
             public*/
+
         }
     private void populateListView() {
         {
-
+            listViewHistory = new ArrayList<>();
             matchHistoryAdapter adapter = new matchHistoryAdapter(
                     MatchHistoryActivity.this,
-                    R.layout.activity_match_history_adapter,
+                    R.layout.activity_match_histry,
                     listViewHistory);
             listHistory.setAdapter(adapter);
-
+            Picasso.get().load(icon1).into(icon);
         }
     }
 

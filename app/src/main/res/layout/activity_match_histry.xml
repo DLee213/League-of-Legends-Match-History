@@ -210,8 +210,8 @@
 
     <ImageView
         android:id="@+id/imageView_team1"
-        android:layout_width="21"
-        android:layout_height="21"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
         android:layout_marginStart="223dp"
         android:layout_marginTop="11dp"
         android:layout_marginEnd="167dp"
@@ -225,8 +225,8 @@
 
     <ImageView
         android:id="@+id/imageView_team2"
-        android:layout_width="21"
-        android:layout_height="21"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
         android:layout_marginStart="244dp"
         android:layout_marginTop="11dp"
         android:layout_marginEnd="146dp"
@@ -240,8 +240,8 @@
 
     <ImageView
         android:id="@+id/imageView_team3"
-        android:layout_width="21"
-        android:layout_height="21"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
         android:layout_marginStart="265dp"
         android:layout_marginTop="11dp"
         android:layout_marginEnd="125dp"
@@ -255,8 +255,8 @@
 
     <ImageView
         android:id="@+id/imageView_team4"
-        android:layout_width="21"
-        android:layout_height="21"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
         android:layout_marginTop="11dp"
         android:layout_marginBottom="699dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -268,8 +268,8 @@
 
     <ImageView
         android:id="@+id/imageView_team5"
-        android:layout_width="21"
-        android:layout_height="21"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
         android:layout_marginTop="11dp"
         android:layout_marginEnd="83dp"
         android:layout_marginBottom="8dp"
@@ -282,8 +282,8 @@
 
     <ImageView
         android:id="@+id/imageView_enemy1"
-        android:layout_width="21"
-        android:layout_height="21"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
         android:layout_marginStart="112dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="670dp"
@@ -296,8 +296,8 @@
 
     <ImageView
         android:id="@+id/imageView_enemy2"
-        android:layout_width="21"
-        android:layout_height="21"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="670dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -309,8 +309,8 @@
 
     <ImageView
         android:id="@+id/imageView_enemy3"
-        android:layout_width="21"
-        android:layout_height="21"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="670dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -322,8 +322,8 @@
 
     <ImageView
         android:id="@+id/imageView_enemy4"
-        android:layout_width="21"
-        android:layout_height="21"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="670dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -335,8 +335,8 @@
 
     <ImageView
         android:id="@+id/imageView_enemy5"
-        android:layout_width="21"
-        android:layout_height="21"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
         android:layout_marginStart="307dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="83dp"

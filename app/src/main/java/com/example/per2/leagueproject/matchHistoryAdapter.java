@@ -18,12 +18,34 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import java.util.List;
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Callback;
 
 public class matchHistoryAdapter extends ArrayAdapter<History> {
 
     private Context context;
     private int resource;
     private List<History> listViewHistory;
+    public String mainchamp;
+    public String spell1;
+    public String spell2;
+    public String item1;
+    public String item2;
+    public String item3;
+    public String item4;
+    public String item5;
+    public String item6;
+    public String trinket;
+    public String team1;
+    public String team2;
+    public String team3;
+    public String team4;
+    public String team5;
+    public String enemy1;
+    public String enemy2;
+    public String enemy3;
+    public String enemy4;
+    public String enemy5;
 
     public matchHistoryAdapter(@NonNull Context context, int resource, @NonNull List<History> listViewHistory) {
         super(context, resource, listViewHistory);
@@ -67,7 +89,27 @@ public class matchHistoryAdapter extends ArrayAdapter<History> {
         textViewOutcome.setText(currentHistory.getOutcome());
         textViewKDA.setText(currentHistory.getKda());
         textViewTime.setText(currentHistory.getTime());
-        imageViewMainChamp.setImageResource(currentHistory.getMainchamp());
+        Picasso.get().load(mainchamp).into(imageViewMainChamp);
+        Picasso.get().load(spell1).into(imageViewSpell1);
+        Picasso.get().load(spell2).into(imageViewSpell2);
+        Picasso.get().load(item1).into(imageViewItem1);
+        Picasso.get().load(item2).into(imageViewItem2);
+        Picasso.get().load(item3).into(imageViewItem3);
+        Picasso.get().load(item4).into(imageViewItem4);
+        Picasso.get().load(item5).into(imageViewItem5);
+        Picasso.get().load(item6).into(imageViewItem6);
+        Picasso.get().load(trinket).into(imageViewtrinket);
+        Picasso.get().load(team1).into(imageViewteam1);
+        Picasso.get().load(team2).into(imageViewteam2);
+        Picasso.get().load(team3).into(imageViewteam3);
+        Picasso.get().load(team4).into(imageViewteam4);
+        Picasso.get().load(team5).into(imageViewteam5);
+        Picasso.get().load(enemy1).into(imageViewenemy1);
+        Picasso.get().load(enemy2).into(imageViewenemy2);
+        Picasso.get().load(enemy3).into(imageViewenemy3);
+        Picasso.get().load(enemy4).into(imageViewenemy4);
+        Picasso.get().load(enemy5).into(imageViewenemy5);
+
          return convertView;
         }
     }
